@@ -1,1 +1,1 @@
-web: gunicorn app:app
+web: source venv/bin/activate && gunicorn app:app
